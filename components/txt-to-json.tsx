@@ -3,8 +3,12 @@
 import { useEffect, useState, useRef } from "react"
 import { Button } from "./ui/button"
 import { useActionState } from "react"
+import { ProcessedJson } from "@/lib/types";
 
-async function processTxtToJson(state: { error?: string, json?: any }, formData: FormData) {
+async function processTxtToJson(
+  state: { error?: string; json?: ProcessedJson }, 
+  formData: FormData
+) {
   const filename = formData.get("txtfile")
   if (!filename) return { error: "Selecione um arquivo." }
 
@@ -20,7 +24,7 @@ async function processTxtToJson(state: { error?: string, json?: any }, formData:
 
 export default function TxtToJsonComponent() {
   const [files, setFiles] = useState<string[]>([])
-  const [json, setJson] = useState<any>(null)
+  const [json, setJson] = useState<ProcessedJson | null>(null)
   const selectRef = useRef<HTMLSelectElement>(null)
   const [state, formAction] = useActionState(processTxtToJson, { error: undefined, json: undefined })
 

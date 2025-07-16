@@ -1,17 +1,18 @@
 import { clsx, type ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
+import { Exercise, TrainingDay } from "@lib/types";
 
 export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
 export function extractWeekOptions(
-  treinoData: any[]
+  treinoData: TrainingDay[]
 ): Array<{ value: string; label: string; number: number }> {
   // Coletar todas as chaves únicas dos atributos weeks dos exercícios
   const weekKeySet = new Set<string>();
   treinoData.forEach((day) => {
-    day.exercises.forEach((exercise: any) => {
+    day.exercises.forEach((exercise: Exercise) => {
       Object.keys(exercise.weeks).forEach((key) => weekKeySet.add(key));
     });
   });

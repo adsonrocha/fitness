@@ -1,26 +1,20 @@
 'use client'
 
-import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "./ui/select"
-import { Card, CardHeader, CardTitle, CardContent } from "./ui/card"
-import { Badge } from "./ui/badge"
-import { Dumbbell, Calendar, ChevronLeft, ChevronRight, Target } from "lucide-react"
+import { extractWeekOptions, getPEColor, getPEDescription } from "@/lib/utils"
+import { Calendar, ChevronLeft, ChevronRight, Dumbbell, Target } from "lucide-react"
 import { useState } from "react"
-import { Button } from "./ui/button"
 import treinoData from '../data/treino.json'
-
-type WeekKey = '1e5' | '2e6' | '3e7' | '4e8'
+import { Badge } from "./ui/badge"
+import { Button } from "./ui/button"
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./ui/select"
 
 export default function HomeComponent() {
   const [currentDayIndex, setCurrentDayIndex] = useState(0)
-  const [currentWeek, setCurrentWeek] = useState<WeekKey>('1e5')
+  const [currentWeek, setCurrentWeek] = useState<string>('1e5')
   const [selectedWeekNumber, setSelectedWeekNumber] = useState(1)
 
-  const weekOptions: Array<{ value: WeekKey; label: string; number: number }> = [
-    { value: '1e5', label: 'Semanas 1 e 5', number: 1 },
-    { value: '2e6', label: 'Semanas 2 e 6', number: 2 },
-    { value: '3e7', label: 'Semanas 3 e 7', number: 3 },
-    { value: '4e8', label: 'Semanas 4 e 8', number: 4 }
-  ]
+  const weekOptions = extractWeekOptions(treinoData)
 
   const currentDay = treinoData[currentDayIndex]
 
@@ -32,26 +26,10 @@ export default function HomeComponent() {
     setCurrentDayIndex((prev) => (prev < treinoData.length - 1 ? prev + 1 : 0))
   }
 
-  const handleWeekChange = (weekValue: WeekKey) => {
+  const handleWeekChange = (weekValue: string) => {
     setCurrentWeek(weekValue)
     const weekOption = weekOptions.find(w => w.value === weekValue)
     setSelectedWeekNumber(weekOption?.number || 1)
-  }
-
-  const getPEColor = (details: string) => {
-    if (details.includes('PE5')) return 'bg-red-500'
-    if (details.includes('PE4')) return 'bg-orange-500'
-    if (details.includes('PE3')) return 'bg-yellow-500'
-    return 'bg-green-500'
-  }
-
-  const getPEDescription = (pe: string) => {
-    const descriptions: Record<string, string> = {
-      'PE3': 'Moderado (1 rep na reserva)',
-      'PE4': 'Intenso (Falha completa)',
-      'PE5': 'Máximo (Falha parcial)'
-    }
-    return descriptions[pe] || 'Leve'
   }
 
   return (
@@ -94,7 +72,7 @@ export default function HomeComponent() {
                     key={week.value}
                     variant={currentWeek === week.value ? "default" : "outline"}
                     size="sm"
-                    onClick={() => handleWeekChange(week.value)}
+                    onClick={() => handleWeekChange(week.value as string)}
                     className="w-12 h-12"
                   >
                     {week.number}
@@ -138,14 +116,14 @@ export default function HomeComponent() {
                 <ChevronRight className="w-5 h-5" />
               </Button>
             </div>
-            
+
           </CardContent>
         </Card>
 
         {/* Exercises */}
         <div className="space-y-4">
           {currentDay.exercises.map((exercise, index) => {
-            const weekData = exercise.weeks[currentWeek]
+            const weekData = exercise.weeks[currentWeek as keyof typeof exercise.weeks]
             const peMatch = weekData.match(/PE(\d)/)
             const pe = peMatch ? `PE${peMatch[1]}` : 'PE3'
 
@@ -154,7 +132,7 @@ export default function HomeComponent() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-2">
                     <Target className="text-blue-600 w-5 h-5" />
-                    <CardTitle className="font-semibold text-gray-800 flex-1">                      
+                    <CardTitle className="font-semibold text-gray-800 flex-1">
                       <span className={`${exercise.name.length > 30 ? 'text-sm' : 'text-lg'}`}>{exercise.name}</span>
                     </CardTitle>
                     <Badge

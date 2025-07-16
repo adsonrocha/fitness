@@ -1,0 +1,297 @@
+[
+  {
+    "day": "Segunda Feira - Pernas + Panturrilhas",
+    "exercises": [
+      {
+        "name": "Levantamento terra sumô",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Legpress 45°",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Cadeira extensora",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Mesa flexora",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Stiff com halteres",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Gêmeos sóleo",
+        "weeks": {
+          "1e5": "3x8-12 PE3",
+          "2e6": "4x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "5x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "5x12-15 PE5 Com a mesma carga da última vez"
+        }
+      }
+    ]
+  },
+  {
+    "day": "Terça Feira - Peito, Ombro e Tríceps",
+    "exercises": [
+      {
+        "name": "Supino com halteres",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Supino inclinado com halteres",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Crucifixo com halteres",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Elevação lateral",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Crucifixo inverso com halteres",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Tríceps no pulley com corda",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      }
+    ]
+  },
+  {
+    "day": "Quarta Feira - Costas e bíceps + abdômen",
+    "exercises": [
+      {
+        "name": "Remada baixa neutra",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Remada serrote",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Puxada alta pegada supinada",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Pulldown com corda",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Rosca direta com halteres",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Biset Flexão de tronco no pulley + Elevação de pernas solo",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4",
+          "3e7": "4x8-12 PE4",
+          "4e8": "4x12-15 PE5"
+        }
+      }
+    ]
+  },
+  {
+    "day": "Sexta Feira - Pernas + Panturrilhas",
+    "exercises": [
+      {
+        "name": "Afundo com halteres",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Legpress 45°",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE3",
+          "3e7": "4x8-12 PE3",
+          "4e8": "4x12-15 PE3"
+        }
+      },
+      {
+        "name": "Cadeira flexora",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Stiff com halteres",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE3",
+          "3e7": "4x8-12 PE3",
+          "4e8": "4x12-15 PE3"
+        }
+      },
+      {
+        "name": "Abdutora 45°",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "4x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "4x12-15 PE5 Com a mesma carga da última vez"
+        }
+      },
+      {
+        "name": "Flexão plantar no legpress",
+        "weeks": {
+          "1e5": "3x8-12 PE3",
+          "2e6": "4x12-15 PE4 Com a mesma carga da última vez",
+          "3e7": "5x8-12 PE4 Com mais carga que da última vez",
+          "4e8": "5x12-15 PE5 Com a mesma carga da última vez"
+        }
+      }
+    ]
+  },
+  {
+    "day": "Sábado - Fullbody superiores + abdômen",
+    "exercises": [
+      {
+        "name": "Supino inclinado com halteres",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE3",
+          "3e7": "4x8-12 PE3",
+          "4e8": "4x12-15 PE3"
+        }
+      },
+      {
+        "name": "Supino com halteres",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE3",
+          "3e7": "4x8-12 PE3",
+          "4e8": "4x12-15 PE3"
+        }
+      },
+      {
+        "name": "Remada baixa neutra",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE3",
+          "3e7": "4x8-12 PE3",
+          "4e8": "4x12-15 PE3"
+        }
+      },
+      {
+        "name": "Puxada alta pegada supinada",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE3",
+          "3e7": "4x8-12 PE3",
+          "4e8": "4x12-15 PE3"
+        }
+      },
+      {
+        "name": "Elevação lateral",
+        "weeks": {
+          "1e5": "2x8-12 PE3",
+          "2e6": "3x12-15 PE3",
+          "3e7": "4x8-12 PE3",
+          "4e8": "4x12-15 PE3"
+        }
+      },
+      {
+        "name": "Biset Flexão de tronco máquina + Prancha isométrica",
+        "weeks": {
+          "1e5": "3x8-12 +40s PE3",
+          "2e6": "3x12-15 +40s PE4",
+          "3e7": "4x8-12 +50s PE4",
+          "4e8": "4x12-15 +50s PE5"
+        }
+      }
+    ]
+  }
+]
